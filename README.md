@@ -22,7 +22,7 @@ The blue board in the following photo is SuperMEZ80-SPI and the red board is EMU
   * 1 74HC125 3-State buffer x4 (DIP 14 pin)
 ### Through hole components
   * 1 LED
-  * 1 Resistor 100 ohms 1/4W
+  * 1 Resistor 1.5K ohms 1/4W (the value of resistor will vary depending on the LED)
   * 2 Capacitor 0.1uF
   * 1 IC socket (DIP 40 pin)
   * 1 IC socket (DIP 32 pin)
@@ -31,9 +31,9 @@ The blue board in the following photo is SuperMEZ80-SPI and the red board is EMU
   * 2 Pin header (0.1" pich 20x1 pin)
   * 1 Pin socket (0.1" pich 6x1 pin)
 ### Surface mount devices
-  * 1 Resistor 1K 0603 ohms
-  * 3 Resistor 10K 0603 ohms
-  * 2 Diode 1N400x 0805
+  * 1 Resistor 1K ohms 0603
+  * 3 Resistor 10K ohms 0603
+  * 2 Diode 1N4148 0805 (SOD 323)
 
 *) If you use this socket, MCP23S08 might collide with the Z80 socket	on the EMUZ80.
 In the case they collide, you might cut off	some of	the Z80	socket part
